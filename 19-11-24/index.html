@@ -25,10 +25,10 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
     />
     <link rel="icon" href="./assets/bird.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="style.css">
     <title>Aves de canto</title>
 </head>
-<body style="background-color: rgb(184, 239, 107);">
+<body>
 
     <!--  -->
     <!-- Header: sección superior de la página y generalmente incluye información introductoria,
@@ -37,12 +37,12 @@
         <h1>Top 3 cantos de aves mas hermosos</h1>
         <p>La naturaleza nos brinda muchas maravillas y entre ellas podemos encontrar majestuosas aves las cuales poseen entre sus cualidades un canto armonioso e impresionante. Algunos ejemplares de aves de canto se encuentran en estado silvestre y otras se pueden tener en nuestros hogares, a continuacion haremos mencion de un listados de las aves con los cantos mas armoniosos.</p>
         <!-- Menú de navegación -->
-         <nav>
-          <ol>
-            <li><a href="#clarin">Clarin</a></li>
-            <li><a href="#jilguero">Jilguero</a></li>
-            <li><a href="#cenzontle">Cenzontle</a></li>
-          </ol>
+         <nav class="menunav">
+          <ul>
+            <li><a class="enlace" href="#clarin">Clarin</a></li>
+            <li><a class="enlace" href="#jilguero">Jilguero</a></li>
+            <li><a class="enlace" href="#cenzontle">Cenzontle</a></li>
+          </ul>
 
          </nav>
      </header>
@@ -51,10 +51,10 @@
       documento-->
       <main>
         <section id="clarin">
-            <h2>Clarin</h2>
+            <h2 class="subtitulo">Clarin</h2>
             <p>El Clarín es un ave conocida por su hermoso y complejo canto, que emite durante todo el año. Habita en bosques de montaña desde México hasta Centroamérica y es apreciado por su melodía, lo que desafortunadamente lo ha convertido en una especie buscada para el comercio de mascotas. A pesar de su canto cautivador, su apariencia es bastante discreta, con tonos grises y marrones.</p>
             <figure>
-                <img src="./assets/clarin.jpg" alt="Ave de canto Clarin mexicano" width="300" title="Clarin mexicano">
+                <img src="../assets/clarin.jpg" alt="Ave de canto Clarin mexicano" width="300" title="Clarin mexicano">
                 <figcaption>En la imagen se muestra un clarin en su habitad.</figcaption>
              </figure>
              <p>En el sigiente enlace puede conocer mas sobre el ave de canto clarin:</p>
@@ -63,13 +63,13 @@
            
         </section>
         <section id="jilguero">
-            <h2>Jilguero</h2>
+            <h2 class="subtitulo">Jilguero</h2>
             <p>El jilguero es un pequeño pájaro cantor muy apreciado por su hermoso y melodioso canto. Su plumaje es llamativo, con colores vibrantes como el amarillo y el rojo. Habita en diversos entornos, desde bosques hasta zonas urbanas, y se alimenta principalmente de semillas. Desafortunadamente, su popularidad como ave de jaula lo ha convertido en una especie perseguida, lo que ha puesto en riesgo sus poblaciones en algunas regiones.</p>
 
              <!-- figure agrupa contenido visual como imágenes, y es común utilizarla en conjunto con la etiqueta figcaption, que proporciona un título o descripción para el contenido visual -->
            
             <figure>
-                <img src="./assets/Jilguero.jpg" alt="Ave de canto Jilguero" width="300" title="Jilguero">
+                <img src="../assets/Jilguero.jpg" alt="Ave de canto Jilguero" width="300" title="Jilguero">
                 <figcaption>En la imagen se muestra un Jilguero cantando.</figcaption>
              </figure>
              <p>En el sigiente enlace puede escuchar el canto del jilguero:</p>
@@ -77,10 +77,10 @@
              
         </section>
         <section id="cenzontle">
-            <h2>Cenzontle</h2>
+            <h2 class="subtitulo">Cenzontle</h2>
             <p>El cenzontle es un ave famosa por su extraordinaria capacidad para imitar una gran variedad de sonidos, desde otros pájaros hasta ruidos ambientales. Originario de América, es considerado un símbolo cultural en muchas regiones. Su canto es tan complejo y melodioso que en algunas culturas se le atribuyen hasta 400 voces diferentes. A pesar de su belleza, el cenzontle enfrenta amenazas debido a la pérdida de su hábitat y el tráfico ilegal de aves.</p>
             <figure>
-                <img src="./assets/cenzontle.jpg" alt="Ave de canto cenzontle" width="300" title="Cenzontle">
+                <img src="../assets/cenzontle.jpg" alt="Ave de canto cenzontle" width="300" title="Cenzontle">
                 <figcaption>En la imagen se muestra un cenzontle en la naturaleza.</figcaption>
              </figure>
              <p>En el sigiente enlace puede saber mas sobre el cenzontle:</p>
@@ -90,7 +90,7 @@
             
         </section>
         <section>
-            <h2>Formulario de suscripción</h2>
+            <h2 class="subtitulo">Formulario de suscripción</h2>
             <p>Rellena el formulario para suscribirte al sitio web.</p>
             <!-- Formulario de contacto -->
              <form>
@@ -125,7 +125,7 @@
                  </textarea>
             </div>
 
-                  <button type="submit"><span class="material-icons">send</span>Enviar</button>
+                  <button class="boton-enviar" type="submit"><span class="material-icons">send</span>Enviar</button>
             </form>
        </section>
 
