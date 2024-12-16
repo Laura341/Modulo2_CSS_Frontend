@@ -32,7 +32,22 @@ footer{
     font-size: 20px;
     color: #412b2b ;
 }
+.boton-enviar{
+    background-color: #6dbef4;
+    color: #FFF;
+    width: 100px;
+    height: 50px;
+    border: none;
+}
 
+.boton-enviar:hover{
+    background-color: #ede65d;
+}
+
+.boton-enviar:active{
+    background-color: #62ed66;
+    color:black;
+}
 
 
 
