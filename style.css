@@ -161,6 +161,35 @@ footer {
 .contact-button a {
     text-decoration: none; /
 }
+a {
+    text-decoration: none; /* Elimina el subrayado predeterminado */
+    color: #4CAF50; /* Color verde para los enlaces */
+    font-weight: bold; /* Aumenta el grosor de la fuente */
+    transition: color 0.3s, transform 0.3s; /* Efecto suave para el color y la transformación */
+}
+
+/* Efecto hover para los hipervínculos */
+a:hover {
+    color: #367836; /* Color verde más oscuro al pasar el cursor */
+    transform: scale(1.1); /* Aumenta ligeramente el tamaño del enlace */
+    text-decoration: underline; /* Añade subrayado cuando se pasa el cursor */
+}
+
+/* Estilo para los enlaces dentro de secciones  */
+section a {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #e7f4e4; /* Fondo suave para los enlaces */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    transition: background-color 0.3s;
+}
+
+/* Efecto hover para enlaces dentro de secciones */
+section a:hover {
+    background-color: #4CAF50; /* Fondo verde cuando se pasa el cursor */
+    color: white; /* Cambia el color del texto a blanco */
+}
 /* Responsividad */
 @media (max-width: 768px) {
     /* Menú de navegación: se apilan los elementos verticalmente */
