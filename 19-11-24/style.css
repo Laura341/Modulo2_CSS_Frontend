@@ -1,37 +1,82 @@
+
 body {
-    font-family: Arial, Helvetica, sans-serif; /* Tipografía */
-    line-height: 1.5; /*Controla la altura de cada
-    línea de texto para mejorar la legibilidad*/
-}
-header{
-    background-color: #9deec4;
-    color: black;
-    text-align: center;
-    /* Text-align sólo funciona en elemento en bloque porque afecta al contenido dentro del bloque.
-    No funciona en elementos en línea porque estos ocupan solo el espacio necesario para su contenido. */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
 }
 
-footer{
-    background-color: #9deec4;
+/* Header */
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-.menunav{
-    text-align: start;
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.menunav ul {
     list-style: none;
+    padding: 0;
+    margin: 0.5rem 0;
 }
-.enlace{
+
+.menunav a {
     text-decoration: none;
-    color: #0e0d0d6a;
-    font-weight: bold;
-    
+    color: white;
+    background-color: #45a049;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
 }
-.enlace:hover{
-    color: #ed634a;
-    text-decoration: underline;
+
+.menunav a:hover {
+    background-color: #367836;
 }
-.subtitulo{
-    font-size: 20px;
-    color: #412b2b ;
+
+/* Main */
+main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 1rem;
 }
+
+/* Secciones */
+section {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.subtitulo {
+    color: #4CAF50;
+    margin-bottom: 0.5rem;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 0.5rem;
+}
+
+/* Imágenes */
+figure {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+figure img {
+    border-radius: 8px;
+    border: 2px solid #ddd;
+}
+
+/* Formulario */
 .boton-enviar{
     background-color: #6dbef4;
     color: #FFF;
@@ -46,10 +91,26 @@ footer{
 
 .boton-enviar:active{
     background-color: #62ed66;
-    
+
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
 }
 
 
+    main {
+        padding: 1rem;
+    }
+
+    
+    
+    
+}
 
 
 
