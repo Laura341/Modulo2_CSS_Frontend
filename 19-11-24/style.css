@@ -133,6 +133,35 @@ footer {
         padding: 1rem;
     }
 
+    /* Estilos para el botón de contacto */
+.contact-button {
+    position: fixed; /* Mantiene el botón fijo en la pantalla */
+    bottom: 20px;    /* Coloca el botón 20px por encima del borde inferior */
+    right: 20px;     /* Coloca el botón 20px a la derecha del borde */
+    z-index: 1000;   /* Asegura que el botón esté por encima de otros elementos */
+}
+
+.contact-button button {
+    background-color: #4CAF50;  /* Fondo verde */
+    color: white;               /* Texto blanco */
+    border: none;               /* Elimina el borde por defecto */
+    padding: 15px 25px;         /* Espaciado dentro del botón */
+    font-size: 1rem;            /* Tamaño de la fuente */
+    border-radius: 50px;        /* Bordes redondeados */
+    cursor: pointer;           /* Muestra el cursor como mano al pasar por encima */
+    transition: background-color 0.3s ease;  /* Transición para el cambio de color */
+}
+
+/* Efecto hover para el botón */
+.contact-button button:hover {
+    background-color: #45a049;  /* Cambia el color de fondo al pasar el cursor */
+}
+
+/* Estilo de enlace (opcional) */
+.contact-button a {
+    text-decoration: none; /* Elimina el subrayado del enlace */
+}
+
 
 
 
