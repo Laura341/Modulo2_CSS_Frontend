@@ -9,6 +9,7 @@ body {
 }
 
 /* Header */
+/* Herencia: El color y el fondo se aplican a todos los elementos dentro de header */
 header {
     background-color: #4CAF50;
     color: white;
@@ -77,6 +78,7 @@ figure img {
 }
 
 /* Formulario */
+/* Especificidad: Las clases como .subtitulo y .form-group tienen mayor prioridad */
 .boton-enviar{
     background-color: #6dbef4;
     color: #FFF;
